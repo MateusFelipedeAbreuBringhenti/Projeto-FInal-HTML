@@ -3,9 +3,9 @@
 ## Escopo da Atividade Bimestral (TCD)
 ### 1. Estrutura do Projeto
 #### Os acadêmicos deverão desenvolver um projeto prático, aplicando os conceitos de HTML e CSS aprendidos durante o módulo 3.
-#### O projeto deverá incluir:
+### O projeto deverá incluir:
 #### Um site que atenda aos seguintes requisitos básicos:
-#### 1 página inicial com:
+### 1 página inicial com:
 #### Header, contendo um logotipo e um menu de navegação com links funcionais.
 #### Main, contendo ao menos 3 seções:
 #### - Uma seção de introdução, com título e subtítulo.
