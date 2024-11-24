@@ -9,12 +9,12 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 header {
     background-color: #151317;
-    padding: 20px 0;
+    padding: 20px 10px;
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
@@ -28,6 +28,7 @@ header {
 .brand img {
     max-width: 50px;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .brand h1 {
