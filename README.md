@@ -13,5 +13,5 @@
 #### - Uma seção de chamada para ação, como "Entre em Contato".
 #### Footer, contendo informações de contato ou rodapé da página.
 #### Uso de container para centralizar o conteúdo e limitar a largura da página.
-#### Aplicação de tags semânticas, como <header>, <main>, <footer>, <section>, entre outras.
+#### Aplicação de tags semânticas, como header, main, footer, section, entre outras.
 #### O site deverá ser original, ou seja, não pode ser uma cópia do projeto desenvolvido em sala de aula.
