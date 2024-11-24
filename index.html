@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café do Bairro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="./assets/css/normalize.css"/>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="brand">
+                <img src="./assets/img/logo_cafe.svg" alt="Logo do Café do Bairro"/>
+                <h1>Café do Bairro</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#eventos">Eventos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section id="banner">
+                <div class="banner-content">
+                    <h3 class="banner-body1">O melhor café da cidade</h3>
+                    <h3 class="banner-body2">Sinta o sabor do nosso café artesanal!</h3>
+                </div>
+            </section>
+
+            <section id="destaques">
+                <h2>Destaque da Semana</h2>
+                <div class="destaque-card">
+                    <img src="../assets/img/gourmet.jpg" alt="Café Especial da Semana" />
+                    <div class="destaque-content">
+                        <h4>Café Gourmet do Mês</h4>
+                        <p>Experimente o nosso café gourmet, selecionado especialmente para você!</p>
+                        <button>Saiba Mais</button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="depoimentos">
+                <h2>O que nossos clientes dizem</h2>
+                <div class="depoimentos-content">
+                    <blockquote>
+                        <p></cite>
+                    </blockquote>"O melhor café que já provei! O ambiente é maravilhoso e acolhedor."</p>
+                        <cite>- Ana Souza
+                    <blockquote>
+                        <p>"Adoro as opções de bolos e doces! Sempre volto para mais."</p>
+                        <cite>- Carlos Lima</cite>
+                    </blockquote>
+                    <blockquote>
+                        <p>"Os baristas são super atenciosos e sempre têm boas recomendações."</p>
+                        <cite>- Maria Fernanda</cite>
+                    </blockquote>
+                </div>
+            </section>
+
+            <section id="cards"> 
+                <h2>Nosso Menu</h2>
+                <div class="cards-content">
+                    <div class="card">
+                        <img src="../assets/img/expresso.jpg" alt="Café Espresso" />
+                        <div class="card-content">
+                            <h4>Café Espresso</h4>
+                            <p>Um clássico intenso e encorpado.</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="../assets/img/latte.jpg" alt="Latte" />
+                        <div class="card-content">
+                            <h4>Latte</h4>
+                            <p>Espresso com leite vaporizado e um toque de espuma.</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="../assets/img/bolo-cenoura.jpg" alt="Bolo de Cenoura" />
+                        <div class="card-content">
+                            <h4>Bolo de Cenoura</h4>
+                            <p>Delicioso bolo de cenoura com cobertura de chocolate.</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="../assets/img/chocolate-quente.jpg" alt="Chocolate Quente" />
+                        <div class="card-content">
+                            <h4>Chocolate Quente</h4>
+                            <p>Uma bebida reconfortante, perfeita para os dias frios.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="blog">
+                <h2>Leia nosso Blog</h2>
+                <div class="blog-posts">
+                    <article>
+                        <h4>8 Dicas para Preparar o Café Perfeito</h4>
+                        <p>Aprenda a fazer o café perfeito em casa com essas dicas simples.</p>
+                        <a href="https://www.tudogostoso.com.br/noticias/como-fazer-o-cafe-perfeito-8-dicas-a2141.htm">Leia mais</a>
+                    </article>
+                    <article>
+                        <h4>Os Benefícios do Café para a Saúde</h4>
+                        <p>Descubra como o café pode ser benéfico para a sua saúde.</p>
+                        <a href="https://www.tjdft.jus.br/informacoes/programas-projetos-e-acoes/pro-vida/dicas-de-saude/pilulas-de-saude/cafe-faz-bem-ou-faz-mal-saiba-quantas-xicaras-e-possivel-tomar-sem-ter-complicacoes#:~:text=“Estudos%20já%20demonstraram%20que%20o,Faculdade%20de%20Medicina%20da%20USP.">Leia mais</a>
+                    </article>
+                </div>
+            </section>
+
+            <section id="newsletter">
+                <h2>Inscreva-se em nossa Newsletter</h2>
+                <form action="#">
+                    <input type="email" placeholder="Seu e-mail" required>
+                    <button type="submit">Inscrever-se</button>
+                </form>
+            </section>
+
+            <section id="reasons">
+                <h2>Por que escolher o Café do Bairro?</h2>
+                <div class="reasons-content">
+                    <div class="reason">
+                        <p class="reason-value">+50</p>
+                        <p class="reason-label">Tipos de Café</p>
+                    </div>
+                    <div class="reason">
+                        <p class="reason-value">+20</p>
+                        <p class="reason-label">Delícias Caseiras</p>
+                    </div>
+                    <div class="reason">
+                        <p class="reason-value">Ambiente</p>
+                        <p class="reason-label">Aconchegante</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="especialists">
+                <h2>Fale com nossos baristas</h2>
+                <div class="especialists-content">
+                    <div class="especialist">
+                        <h4>João Pereira</h4>
+                        <p>Barista Principal</p>
+                        <p class="specialist-detail">Especialista em café, sempre pronto para recomendar a melhor bebida.</p>
+                    </div>
+                    <div class="especialist">
+                        <h4>Maria Santos</h4>
+                        <p>Barista</p>
+                        <p class="specialist-detail">Adora criar novas receitas e combinações de sabores.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="values">
+                <h2>Quem somos nós?</h2>
+                <div class="values-content">
+                    <img src="../assets/img/cafeteria.jpg" alt="Café do Bairro"/>
+                    <div class="value-text">
+                        <p>Nós somos o Café do Bairro, um espaço acolhedor dedicado aos amantes do café. Nossa missão é oferecer uma experiência única e saborosa a cada xícara!</p>
+                        <p>Valorizamos a qualidade, a frescura e o amor pelo café.</p>
+                        <p>Cada grão é cuidadosamente selecionado de pequenos produtores, garantindo que nossos clientes saboreiem o melhor do que o mundo do café tem a oferecer.</p>
+                        <p>Acreditamos que cada xícara conta uma história, e queremos que você faça parte dessa jornada.</p>
+                        <h3>Nossa Filosofia</h3>
+                        <p>Acreditamos no café como uma forma de arte e uma maneira de se conectar.</p>
+                        <p>Seja para um momento de tranquilidade, uma reunião com amigos ou uma pausa no dia a dia, estamos aqui para proporcionar a atmosfera perfeita.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-company">
+                    <p class="footer-brand">Café do Bairro</p>
+                    <p>O seu lugar para um café especial e acolhedor. Venha nos visitar!</p>
+                </div>
+                <div class="footer-menu">
+                    <p class="footer-menu-title">Nossa Empresa</p>
+                    <ul>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#eventos">Eventos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-menu">
+                    <p class="footer-menu-title">Contato</p>
+                    <ul>
+                        <li>+55 46 99999-9999</li>
+                        <li>Rua do Café, 100</li>
+                        <li>Curitiba - PR</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-social">
+                <span class="facebook"></span>
+                <span class="twitter"></span>
+                <span class="instagram"></span>
+            </div>
+            <div class="footer-copyright">
+                <p>&#169; 2024 - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
