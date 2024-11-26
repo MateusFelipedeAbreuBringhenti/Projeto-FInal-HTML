@@ -18,11 +18,11 @@
             <nav>
                 <ul>
                     <li><a href="#home" class="active">Home</a></li>
-                    <li><a href="#menu">Menu</a></li>
-                    <li><a href="#sobre">Sobre Nós</a></li>
-                    <li><a href="#eventos">Eventos</a></li>
-                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#cards">Menu</a></li>
                     <li><a href="#blog">Blog</a></li>
+                    <li><a href="#eventos">Eventos</a></li>
+                    <li><a href="#values">Quem somos</a></li>
+                    <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
         </div>
@@ -53,9 +53,9 @@
                 <h2>O que nossos clientes dizem</h2>
                 <div class="depoimentos-content">
                     <blockquote>
-                        <p></cite>
-                    </blockquote>"O melhor café que já provei! O ambiente é maravilhoso e acolhedor."</p>
-                        <cite>- Ana Souza
+                        <p>"O melhor café que já provei! O ambiente é maravilhoso e acolhedor."</p>
+                        <cite>- Ana Souza</cite>
+                    </blockquote>
                     <blockquote>
                         <p>"Adoro as opções de bolos e doces! Sempre volto para mais."</p>
                         <cite>- Carlos Lima</cite>
@@ -81,7 +81,7 @@
                     <div class="card">
                         <img src="../assets/img/latte.jpg" alt="Latte" />
                         <div class="card-content">
-                            <h4>Latte</h4>
+                            <h4>Espresso Latte</h4>
                             <p>Espresso com leite vaporizado e um toque de espuma.</p>
                         </div>
                     </div>
@@ -120,15 +120,13 @@
                 </div>
             </section>
 
-            <section id="Eventos">
-                <h2>Eventos</h2>
-                <div class="eventos-content">
-                    <div class="evento">
-                        <img src="../assets/img/festival.jpg" alt="Festival de Café" />
-                        <div class="evento-content">
-                            <h4>Festival de Café</h4>
-                            <p>Participe do Festival de Café e desfrute de uma variedade de bebidas artesanais.</p>
-            </section>    
+            <h2>Nossos Eventos</h2>
+            <section id="eventos">
+                <div class="evento-content">
+                    <h3 class="banner-body1">Festival de Café</h3>
+                    <h3 class="banner-body2">Participe do Festival de Café e desfrute de uma variedade de bebidas artesanais</h3>
+                </div>
+            </section> 
 
             <section id="newsletter">
                 <h2>Inscreva-se em nossa Newsletter</h2>
@@ -150,8 +148,8 @@
                         <p class="reason-label">Delícias Caseiras</p>
                     </div>
                     <div class="reason">
-                        <p class="reason-value">Ambiente</p>
-                        <p class="reason-label">Aconchegante</p>
+                        <p class="reason-value">+100</p>
+                        <p class="reason-label">Avaliações Positivas</p>
                     </div>
                 </div>
             </section>
@@ -161,13 +159,18 @@
                 <div class="especialists-content">
                     <div class="especialist">
                         <h4>João Pereira</h4>
-                        <p>Barista Principal</p>
+                        <p>Chapecó - SC</p>
                         <p class="specialist-detail">Especialista em café, sempre pronto para recomendar a melhor bebida.</p>
                     </div>
                     <div class="especialist">
-                        <h4>Maria Santos</h4>
-                        <p>Barista</p>
+                        <h4>Carla Santos</h4>
+                        <p>Guarapuava - PR</p>
                         <p class="specialist-detail">Adora criar novas receitas e combinações de sabores.</p>
+                    </div>
+                    <div class="especialist">
+                        <h4>Carlos Alberto</h4>
+                        <p>Ponta Grossa - PR</p>
+                        <p class="specialist-detail">Adora criar novos ambientes e com muito sabor.</p>
                     </div>
                 </div>
             </section>
@@ -191,30 +194,32 @@
     </main>
 
     <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-company">
-                    <p class="footer-brand">Café do Bairro</p>
-                    <p>O seu lugar para um café especial e acolhedor. Venha nos visitar!</p>
+        <section id="contato">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-company">
+                        <p class="footer-brand">Café do Bairro</p>
+                        <p>O seu lugar para um café especial e acolhedor. Venha nos visitar!</p>
+                    </div>
+                    <div class="footer-menu">
+                        <p class="footer-menu-title">Nossa Empresa</p>
+                        <ul>
+                            <li><a href="#values">Sobre Nós</a></li>
+                            <li><a href="#cards">Menu</a></li>
+                            <li><a href="#eventos">Eventos</a></li>
+                            <li><a href="#contato">Contato</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-menu">
+                        <p class="footer-menu-title">Contato</p>
+                        <ul>
+                            <li>+55 46 99999-9999</li>
+                            <li>Rua do Café, 100</li>
+                            <li>Vitorino - PR</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="footer-menu">
-                    <p class="footer-menu-title">Nossa Empresa</p>
-                    <ul>
-                        <li><a href="#sobre">Sobre Nós</a></li>
-                        <li><a href="#menu">Menu</a></li>
-                        <li><a href="#eventos">Eventos</a></li>
-                        <li><a href="#contato">Contato</a></li>
-                    </ul>
-                </div>
-                <div class="footer-menu">
-                    <p class="footer-menu-title">Contato</p>
-                    <ul>
-                        <li>+55 46 99999-9999</li>
-                        <li>Rua do Café, 100</li>
-                        <li>Curitiba - PR</li>
-                    </ul>
-                </div>
-            </div>
+            </section>
 
             <div class="footer-social">
                 <span class="facebook"></span>
