@@ -95,18 +95,18 @@
                     </div>
 
                     <div class="card">
-                        <img src="../assets/img/bolo-cenoura.jpg" alt="Bolo de Cenoura" />
+                        <img src="../assets/img/brownie.jpg" alt="Bolo de Cenoura" />
                         <div class="card-content">
-                            <h4>Bolo de Cenoura</h4>
-                            <p>Delicioso bolo de cenoura com cobertura de chocolate.</p>
+                            <h4>Brownie</h4>
+                            <p>Delicioso brownie de chocolate.</p>
                         </div>
                     </div>
 
                     <div class="card">
-                        <img src="../assets/img/bolo-cenoura.jpg" alt="Bolo de Cenoura" />
+                        <img src="../assets/img/torta.jpg" alt="Bolo de Cenoura" />
                         <div class="card-content">
-                            <h4>Bolo de Cenoura</h4>
-                            <p>Delicioso bolo de cenoura com cobertura de chocolate.</p>
+                            <h4>Torta</h4>
+                            <p>Deliciosa torta gelada com geleias e frutas.</p>
                         </div>
                     </div>
 
@@ -146,11 +146,25 @@
 
             <section id="newsletter">
                 <h2>Inscreva-se em nossa Newsletter</h2>
-                <form action="#">
+                <form id="newsletterForm">
                     <input type="email" placeholder="Seu e-mail" required>
                     <button type="submit">Inscrever-se</button>
                 </form>
+                <p id="confirmationMessage" style="display: none; color: #fff; margin-top: 10px;">
+                    Inscrição realizada com sucesso! Verifique seu e-mail para confirmar.
+                </p>
             </section>
+
+            <script>
+                const form = document.getElementById('newsletterForm');
+                const confirmationMessage = document.getElementById('confirmationMessage');
+            
+                form.addEventListener('submit', function(event) {
+                    event.preventDefault();
+                    confirmationMessage.style.display = 'block'; 
+                    form.reset(); 
+                });
+            </script>
 
             <section id="reasons">
                 <h2>Por que escolher o Café do Bairro?</h2>
